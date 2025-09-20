@@ -90,7 +90,7 @@ fun SearchBar(
     modifier: Modifier = Modifier
 ) {
     TextField(
-        value = " ",
+        value = "",
         onValueChange = {},
         leadingIcon = {
             Icon(
